@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 190%;
+    letter-spacing: .035em;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Universal Margin
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mtb20 {
+    margin: 20px 0px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mtb40 {
+    margin: 40px 0px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mtb60 {
+    margin: 60px 0px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mtb80 {
+    margin: 80px 0px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.mtb100 {
+    margin: 100px 0px;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Stylish Button
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+.btn {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #333;
+    display: inline-block;
+}
+
+.btn_Outline {
+    border: 1px solid #333;
+    background-color: transparent;
+}
+
+.btn_Bg {
+    border-radius: 4px;
+    background-color: #27ae60;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.btn_Bg:hover {
+    box-shadow: 1px 2px 3px #2e8a55;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Universal Styling
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subTitle {
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: .035em;
+    font-weight: 400;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Other Styling
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+.tac {
+    text-align: center;
+    
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Column Styling
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+.oneFour {
+    width: 24%;
+    float: left;
+     border:1px solid #333;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+   
+}
+
+.oneFour p{
+    margin-bottom: 20px;
+}
+
+.oneFour :Last-child{
+    margin-right: 0px;
+    
+}
+.oneFour .fa{
+    font-size: 60px;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Header Styling
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+#mainHeader {
+    height: 100%;
+    background-image: url(img/Group.svg);
+}
+
+#mainHeader .mainNav {
+    background-color: #27ae60;
+    min-height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#mainHeader .mainNav .branding {
+    font-size: 36px;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 50px;
+}
+
+#mainHeader .mainNav .pullRight {
+    float: right;
+    list-style: none;
+    padding: 0;
+}
+
+#mainHeader .mainNav .pullRight li {
+    float: left;
+    margin-left: 35px;
+    line-height: 50px;
+    position: relative;
+}
+
+#mainHeader .mainNav .pullRight li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Stylish Navbar Animation
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+#mainHeader .mainNav .pullRight li a:hover::after {
+    opacity: 1;
+    transform: translateY(-10px);
+    transition: .5s all;
+}
+
+#mainHeader .mainNav .pullRight li a:after {
+    content: "";
+    border-bottom: 1px solid;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    opacity: 0;
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    End Of Stylish Navbar Animation
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+#mainHeader .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*
+    =-=-=-=-=-=-=-=-=-=-
+    Full Text Section Styling
+    =-=-=-=-=-=-=-=-=-=-
+*/
+
+#fourColumn {
+    height: 100%;
+}
